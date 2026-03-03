@@ -17,9 +17,20 @@ public class Estudante {
     private String matricula;
     private String email;
     
-    public int obterIdade (Date hoje){
+        public Estudante(){
+                this.nome= "nobody";
+        
+        }
+    
+        public int obterIdade (Date hoje){
         int idade = 0;
         //Lógica para calcular idade
         return idade;
     }
+        public String getNome(){
+            return this.nome;
+        }
+        public void setNome (String _nome){
+            this.nome = _nome;
+        }
 }
