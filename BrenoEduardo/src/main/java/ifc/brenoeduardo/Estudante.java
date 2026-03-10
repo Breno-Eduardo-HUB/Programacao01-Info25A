@@ -11,7 +11,7 @@ import java.util.Date;
  * @author aluno
  */
 public class Estudante {
-    private String nome;
+    private static String nome;
     private Date dataNascimento;
     char genero;
     private String matricula;
@@ -19,7 +19,7 @@ public class Estudante {
     
         public Estudante(){
                 this.nome= "nobody";
-            System.out.println("eu sou hetero");
+            
         }
     
         public int obterIdade (Date hoje){
@@ -27,11 +27,11 @@ public class Estudante {
         //Lógica para calcular idade
         return idade;
     }
-        public String getNome(){
-            return this.nome;
+        public static String getNome(){
+            return nome;
         }
-        public void setNome (String _nome){
-            this.nome = _nome;
+        public static void setNome (String _nome){
+            nome = _nome;
         }
-        
+
 }
