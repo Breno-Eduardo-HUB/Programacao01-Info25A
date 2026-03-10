@@ -10,6 +10,5 @@ package ifc.brenoeduardo.bunda;
  */
 public class caveiragulosa {
     public static void main(String[] args) {
-        camada.getNome
+        camada.getNome();
     }
-}
