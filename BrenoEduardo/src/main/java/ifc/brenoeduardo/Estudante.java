@@ -13,13 +13,13 @@ import java.util.Date;
 public class Estudante {
     private String nome;
     private Date dataNascimento;
-    private char genero;
+    char genero;
     private String matricula;
     private String email;
     
         public Estudante(){
                 this.nome= "nobody";
-        
+            System.out.println("eu sou hetero");
         }
     
         public int obterIdade (Date hoje){
@@ -33,4 +33,5 @@ public class Estudante {
         public void setNome (String _nome){
             this.nome = _nome;
         }
+        
 }
