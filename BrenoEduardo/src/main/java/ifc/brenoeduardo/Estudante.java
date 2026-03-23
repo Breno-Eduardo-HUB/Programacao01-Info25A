@@ -5,10 +5,7 @@ package ifc.brenoeduardo;
 
 import java.util.Date;
 
-/**
- *
- * @author aluno
- */
+// * @author Breno
 public class Estudante {
 
     private static String nome;
